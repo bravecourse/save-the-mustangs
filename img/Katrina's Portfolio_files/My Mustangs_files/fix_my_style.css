@@ -1,0 +1,151 @@
+/*TODO:
+- Lots of text is up against the left wall. We need it to come off the wall slightly.
+- the cookies and cakes rectangles are up against the left wall. We need those to come off the wall
+- THere is a lot of space between the list headers and list items. Reduce that space-around
+- In the footer, the paragraphs have a lot of space around them. Make that space visually appealing
+*/
+
+body {
+	text-shadow: 0 0 2px white;
+	display:  flex;
+	flex-direction:  column;
+	font-family: 'Princess Sofia', cursive;
+}
+
+
+#header {
+	background-image: url("pink.jpg");
+	background-size: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	color: lightblue;
+	text-shadow:  0 0 .5px black;
+	font-size: 22pt;
+}
+p{
+	font-size: 18pt;
+}
+
+h3 {
+	text-align: center;
+	color: lightpink;
+	text-shadow:  0 0 .2px black;
+	margin: 55px;
+}
+
+/*ul {
+	border: 1px solid red;
+	margin: 0;
+}*/
+
+/*Demonstrating a selector*/
+/*p {
+	background-color: black;
+}*/
+
+#aboutme {
+	text-align: center;
+	font-weight: bolder;
+	background-color: sienna;
+}
+
+#menu {
+	text-align: center;
+	font-weight: bold;
+	background-color: seagreen;
+}
+
+#food-lists {
+	/*background-image: url("http://freefoodphotos.com/imagelibrary/cooking/cookie_cutting.jpg");*/
+	background-image: url("cookie_cutting.jpg");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items:  center;
+}
+
+.food-list1 {
+	background-color: rgb(255,255,255,.95);
+	font-weight: bold;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-left: 375px;
+
+}
+
+.food-list2 {
+	background-color: rgb(255,255,255,.95);
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 25px;
+	margin-right: 375px;
+}
+#footer {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: slategray;
+}
+
+.footer-p {
+	color: white;
+	text-shadow: 0 0 2px black;
+	font-family: Ariel;
+}
+
+/*BORDERS!*/
+/*div {
+	border: 2px solid red;
+}*/
+/*h1, h2, h3, ol, ul, p {
+	border: 2px solid blue;
+}*/
+
+/*h1 {
+	margin: 20px;
+}*/
+
+/*Using class selectors*/
+/*.best-discount {
+	font-size: 20px;
+}*/
+
+/*I can overselect if I style all the divs*/
+/*div {
+	font-family: Ariel;
+}*/
+
+/*Or just get the divs I want*/
+/*.footer_div {
+	font-family: Ariel;
+}*/
+
+
+/*Example of id selector*/
+/*#footer_navigation {
+	border: 1px solid green;
+}*/
+
+/*#buy {
+	color: red;
+}*/
+
+/*for highlighting all the boxes*/
+/*h1, h2, h3, p, ul {
+	border: 6px solid blue;
+	margin: 10px;
+}
+
+*/
+
+
+/*For illustrating children*/
+/*
+body > * {
+	border: 3px solid red;
+}*/
